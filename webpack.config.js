@@ -47,7 +47,7 @@ module.exports = {
       {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
-      },
+      }
     ]
   },
   plugins: [
@@ -58,12 +58,13 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
     alias: {
-      '.@': path.resolve(__dirname, './src')
+      '.@': path.resolve(__dirname, './src'),
+      '.NodeModules': path.resolve(__dirname, './node_modules')
     }
   },
   output: {
     filename: 'bundle.js',
     path:path.resolve(__dirname, "dist"),
     publicPath: '/'
-  },
+  }
 }

@@ -1,9 +1,11 @@
 :root {
   --theme-darkest: #000;
-  --theme-dark: #111;
+  --theme-dark: #333;
   --theme-base: #1c1c1c;
-  --theme-light: #777;
-  --theme-lightest: #999;
+  --theme-light: #f7f7f7;
+  --theme-lightest: #fff;
+
+  --color-blue-base: #364051;
 }
 
 body {
@@ -14,7 +16,16 @@ body {
 
 .App {
   height: 100vh;
+  background: var(--theme-lightest);
+  color: var(--theme-base);
+}
+
+.PageIntro {
+  user-select: none;
+  background: var(--theme-light);
   padding: 1rem;
-  background: var(--theme-base);
-  color: white;
+}
+
+.PageDetail {
+  padding: 1rem;
 }
