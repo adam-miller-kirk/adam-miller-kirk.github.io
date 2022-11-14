@@ -6,7 +6,8 @@ const TableContents = () => {
   return (
     <div className="TableContents">
       <Link href="/">Home</Link>
-      <Link href="/search">Search</Link>
+      <Link href="/skills">Skills</Link>
+      <Link href="/details">Details</Link>
       <Link href="/help">Help</Link>
     </div>
   );

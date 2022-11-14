@@ -6,18 +6,20 @@ import { store } from "../store";
 import Title from ".@/components/title/Title";
 import TableContents from ".@/components/tableContents/TableContents";
 import FirstPage from ".@/layout/Home";
-import SecondPage from ".@/layout/Search";
+import SkillsPage from ".@/layout/Skills";
+import DetailsPage from ".@/layout/Details";
 import ThirdPage from ".@/layout/Help";
 import ErrorPage from ".@/layout/Error";
 
 const Routes = () => {
   return (
     <div className="App">
-      <Title name="Weather App" />
+      <Title name="Demonstration App" />
       <TableContents />
       <StoreProvider store={store}>
         <Switch>
-          <Route path="/search" component={SecondPage} />
+          <Route path="/skills" component={SkillsPage} />
+          <Route path="/details" component={DetailsPage} />
           <Route path="/help" component={ThirdPage} />
           <Route path="/*" component={ErrorPage} />
           <Route component={FirstPage} />

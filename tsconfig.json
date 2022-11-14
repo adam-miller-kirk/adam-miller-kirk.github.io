@@ -12,7 +12,7 @@
     "allowJs": false,
     "baseUrl": "./",
     "esModuleInterop": false,
-    "resolveJsonModule": false,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "downlevelIteration": true,
     "paths": {
