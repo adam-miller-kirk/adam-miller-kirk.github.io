@@ -1,5 +1,5 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: path.join(__dirname, "src", "index.tsx"),
@@ -7,19 +7,19 @@ module.exports = {
     rules: [
       {
         test: /\.tsx$/,
-        include: path.join(__dirname, 'src'),
+        include: path.join(__dirname, "src"),
         use: [
           {
-          loader: "babel-loader",
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
-          }
+            loader: "babel-loader",
+            options: {
+              presets: ["@babel/preset-env", "@babel/preset-react"],
+            },
           },
           {
-            loader: 'ts-loader',
-            options: { transpileOnly: true }
-          }
-        ].filter(Boolean)
+            loader: "ts-loader",
+            options: { transpileOnly: true },
+          },
+        ].filter(Boolean),
       },
       {
         test: /\.js$/,
@@ -27,9 +27,9 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
-          }
-        }
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+          },
+        },
       },
       {
         test: /\.pcss$/i,
@@ -42,13 +42,16 @@ module.exports = {
       },
       {
         test: /\.(png|jp(e*)g|svg|gif)$/,
-        use: ['file-loader'],
+        use: ["file-loader"],
       },
       {
         test: /\.svg$/,
-        use: ['@svgr/webpack'],
-      }
-    ]
+        use: ["@svgr/webpack"],
+      },
+    ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -56,15 +59,15 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: [".tsx", ".ts", ".js"],
     alias: {
-      '.@': path.resolve(__dirname, './src'),
-      '.NodeModules': path.resolve(__dirname, './node_modules')
-    }
+      ".@": path.resolve(__dirname, "./src"),
+      ".NodeModules": path.resolve(__dirname, "./node_modules"),
+    },
   },
   output: {
-    filename: 'bundle.js',
-    path:path.resolve(__dirname, "dist"),
-    publicPath: '/'
-  }
-}
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
+  },
+};

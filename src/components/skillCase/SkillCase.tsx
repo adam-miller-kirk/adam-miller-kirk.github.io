@@ -7,19 +7,19 @@ const SkillCase = ({ progress, title }) => {
   if (progress) {
     if (progress <= 20) {
       level = 1;
-      colour = "red";
+      colour = "#ff4242";
     } else if (progress > 20 && progress <= 40) {
       level = 2;
-      colour = "green";
+      colour = "#5cff7c";
     } else if (progress > 40 && progress <= 60) {
       level = 3;
-      colour = "blue";
+      colour = "#5ce7ff";
     } else if (progress > 60 && progress <= 80) {
       level = 4;
-      colour = "orange";
+      colour = "#ff9e42";
     } else if (progress > 80 && progress <= 100) {
       level = 5;
-      colour = "purple";
+      colour = "#7598ff";
     } else {
       level = 6;
       colour = "grey";

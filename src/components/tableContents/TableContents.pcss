@@ -1,7 +1,7 @@
 .TableContents {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 a {
@@ -10,12 +10,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0.5rem;
+  /* margin: 0.5rem; */
   padding: 0.5rem 1rem;
   color: var(--theme-lightest);
-  background: var(--color-blue-base);
-  border-radius: 0.5rem;
+  background: var(--color-blue-light);
+  border: 1px solid white;
   text-decoration: none;
   line-height: 1rem;
   user-select: none;
+}
+
+a:hover {
+  background: var(--color-blue-dark);
 }
