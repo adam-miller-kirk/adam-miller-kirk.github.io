@@ -7,7 +7,7 @@ const TableContents = () => {
     <div className="TableContents">
       <Link href="/">Home</Link>
       <Link href="/skills">Skills</Link>
-      <Link href="/details">Details</Link>
+      <Link href="/roles">Roles</Link>
       <Link href="/help">Help</Link>
     </div>
   );

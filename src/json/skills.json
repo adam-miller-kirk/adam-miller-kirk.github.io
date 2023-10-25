@@ -1,12 +1,12 @@
 [
   {
     "title": "UI",
-    "progress": 12,
+    "progress": 92,
     "notes": "A long string bout the skill"
   },
   {
     "title": "Server",
-    "progress": 32,
+    "progress": 72,
     "notes": "A long string bout the skill"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "title": "Design",
-    "progress": 72,
+    "progress": 32,
     "notes": "A long string bout the skill"
   },
   {
     "title": "Communication",
-    "progress": 92,
+    "progress": 12,
     "notes": "A long string bout the skill"
   }
 ]

@@ -1,16 +1,14 @@
 import React from "react";
 
 const DetailsPage = () => {
-  // TODO insert search bar and results component
-
   return (
     <>
       <div className="PageIntro">
-        <h3>Details</h3>
-        <p>Detail location</p>
+        <h3>Roles</h3>
+        <p>Roles that I have done</p>
       </div>
       <div className="PageDetail">
-        <p>Details coming soon</p>
+        <p>Roles coming soon</p>
       </div>
     </>
   );
