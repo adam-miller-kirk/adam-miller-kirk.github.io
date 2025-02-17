@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
-import "./TableContents.pcss";
+import "./index.pcss";
 
 const TableContents = () => {
   return (

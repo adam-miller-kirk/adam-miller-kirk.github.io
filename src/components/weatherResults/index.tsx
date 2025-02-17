@@ -1,5 +1,5 @@
 import React from "react";
-import "./WeatherResults.pcss";
+import "./index.pcss";
 
 const WeatherResults = ({ results }) => {
   return (

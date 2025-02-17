@@ -11,9 +11,6 @@ const FirstPage = () => {
           and are interested in my skills as a developer.
         </p>
       </div>
-      <div className="PageDetail">
-        <p>Search coming soon</p>
-      </div>
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import "./SkillCase.pcss";
+import "./index.pcss";
 
 const SkillCase = ({ progress, title }) => {
   let level, colour;

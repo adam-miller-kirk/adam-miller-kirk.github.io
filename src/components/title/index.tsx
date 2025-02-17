@@ -1,5 +1,5 @@
 import React from "react";
-import "./Title.pcss";
+import "./index.pcss";
 
 const Title = ({ name }) => {
   return (

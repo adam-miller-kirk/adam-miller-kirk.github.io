@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "wouter";
-import TableContents from ".@/components/tableContents/TableContents";
+import TableContents from ".@/components/tableContents";
 
 const ErrorPage = () => {
   return (

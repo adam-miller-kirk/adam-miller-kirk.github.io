@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Frameworks",
+    "skills": [
+      { "title": "React", "progress": 82, "notes": "" },
+      { "title": "Next.js", "progress": 65, "notes": "" },
+      { "title": "Angular", "progress": 18, "notes": "" },
+      { "title": "Vue", "progress": 18, "notes": "" }
+    ]
+  },
+  {
+    "name": "Frontend",
+    "skills": [
+      { "title": "JavaScript", "progress": 86, "notes": "" },
+      { "title": "HTML5", "progress": 81, "notes": "" },
+      { "title": "CSS", "progress": 81, "notes": "" },
+      { "title": "TypeScript", "progress": 74, "notes": "" },
+      { "title": "Tailwind", "progress": 60, "notes": "" },
+      { "title": "ShadCN", "progress": 51, "notes": "" }
+    ]
+  },
+  {
+    "name": "Backend",
+    "skills": [
+      { "title": "NodeJS", "progress": 58, "notes": "" },
+      { "title": "Node-RED", "progress": 42, "notes": "" },
+      { "title": "GraphQL", "progress": 62, "notes": "" },
+      { "title": "Python", "progress": 26, "notes": "" },
+      { "title": "Java", "progress": 20, "notes": "" }
+    ]
+  },
+  {
+    "name": "DevOps",
+    "skills": [
+      { "title": "GitHub", "progress": 74, "notes": "" },
+      { "title": "Azure", "progress": 30, "notes": "" },
+      { "title": "AWS", "progress": 40, "notes": "" },
+      { "title": "Docker", "progress": 50, "notes": "" },
+      { "title": "Kubernetes", "progress": 50, "notes": "" },
+      { "title": "Argo", "progress": 20, "notes": "" }
+    ]
+  },
+  {
+    "name": "Design",
+    "skills": [
+      { "title": "Figma", "progress": 58, "notes": "" },
+      { "title": "Storybook", "progress": 40, "notes": "" },
+      { "title": "Photoshop", "progress": 56, "notes": "" },
+      { "title": "Illustrator", "progress": 54, "notes": "" },
+      { "title": "Animate", "progress": 48, "notes": "" },
+      { "title": "Framer", "progress": 22, "notes": "" }
+    ]
+  },
+  {
+    "name": "Testing",
+    "skills": [
+      { "title": "Jest", "progress": 42, "notes": "" },
+      { "title": "Cypress", "progress": 32, "notes": "" },
+      { "title": "Playwright", "progress": 21, "notes": "" }
+    ]
+  },
+  {
+    "name": "Management",
+    "skills": [
+      { "title": "Jira", "progress": 63, "notes": "" },
+      { "title": "Agile Scrum", "progress": 70, "notes": "" },
+      { "title": "Monday.com", "progress": 48, "notes": "" }
+    ]
+  }
+]

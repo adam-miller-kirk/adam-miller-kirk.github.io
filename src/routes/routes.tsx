@@ -3,18 +3,18 @@ import { StoreProvider } from "easy-peasy";
 import { Route, Switch, Link } from "wouter";
 import { store } from "../store";
 
-import Title from ".@/components/title/Title";
-import TableContents from ".@/components/tableContents/TableContents";
-import FirstPage from ".@/layout/Home";
-import SkillsPage from ".@/layout/Skills";
-import rolesPage from ".@/layout/Roles";
-import ThirdPage from ".@/layout/Help";
-import ErrorPage from ".@/layout/Error";
+import Title from ".@/components/title";
+import TableContents from ".@/components/tableContents";
+import FirstPage from ".@/layout/home";
+import SkillsPage from ".@/layout/skills";
+import rolesPage from ".@/layout/roles";
+import ThirdPage from ".@/layout/help";
+import ErrorPage from ".@/layout/error";
 
 const Routes = () => {
   return (
     <div className="App">
-      <Title name="Demonstration App" />
+      <Title name="Adam Miller-Kirk" />
       <TableContents />
       <StoreProvider store={store}>
         <Switch>
