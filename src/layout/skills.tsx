@@ -12,7 +12,9 @@ const SkillsPage = () => (
     <div className="PageDetail">
       {competencies.map((competency) => (
         <div className="CompetencyGroup">
-          <p>{competency.name}</p>
+          <b>
+            <p>{competency.name}</p>
+          </b>
           <div className="CompetencySkillContainer">
             {competency.skills.map((skill) => (
               <SkillCase progress={skill.progress} title={skill.title} />
